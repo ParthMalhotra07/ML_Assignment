@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+submission/*.pdf
+src/build_report.py
+src/render_report.py
+tmp/
+*.zip
+.DS_Store
