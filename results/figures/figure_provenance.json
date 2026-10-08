@@ -1,0 +1,18 @@
+{
+  "correlations": "Pearson correlations of original labelled training columns; descriptive only.",
+  "boundaries": "Original train and test input counts at -1 or +1.",
+  "degree": "Development five-fold CV tables; Ridge minimized over bases and penalties.",
+  "penalty": "Original monomial CV tables; unconverged Lasso candidates masked.",
+  "diagnostics": "Saved predictions for 200 holdout rows per problem; no final-fit predictions used.",
+  "responses": "Saved full-training models on a 101 by 101 grid, other inputs fixed at zero.",
+  "response_slice_ranges": {
+    "var1": [
+      0.01715949005459061,
+      0.12186571909704025
+    ],
+    "var2": [
+      -8.150526674872545,
+      14.173316416238094
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "var1": {
+    "selected": {
+      "basis": "monomial",
+      "method": "lasso",
+      "degree": 5,
+      "terms": 461,
+      "alpha": 0.01,
+      "cv_mse": 0.3469072235333668,
+      "cv_se": 0.0130119535505785
+    },
+    "audit_mse": 0.3187918139925777,
+    "audit_r2": 0.9700726832216782,
+    "audit_n": 200,
+    "dev_n": 800,
+    "audit_boundary_n": 181,
+    "audit_boundary_mse": 0.3131747018393567,
+    "train_mse": 0.24894946227706594,
+    "nonzero_coefficients": 119,
+    "final_dual_gap": 1.6321260440377294e-06,
+    "training_rows": 1000,
+    "test_rows": 1000,
+    "feature_columns": [
+      "x1",
+      "x2",
+      "x3",
+      "x4",
+      "x5",
+      "x6"
+    ],
+    "train_target_std": 3.258494421857799,
+    "train_target_min": -10.14959084122815,
+    "train_target_max": 12.945198269356544,
+    "prediction_min": -9.40951932665899,
+    "prediction_max": 19.59695836012192,
+    "train_boundary_cell_fraction": 0.318,
+    "test_boundary_cell_fraction": 0.49216666666666664,
+    "train_duplicate_features": 2,
+    "test_duplicate_features": 2,
+    "sample_format_verified": true,
+    "train_sha256": "39d7a83e35e1743246f5553ac84fb40217e112949856c4aeece77ac16b56f7bd",
+    "test_sha256": "335972d93b9ef9fc2e39df96bde2cb322b26590838449bcb5932303556cf3d17"
+  },
+  "var2": {
+    "selected": {
+      "basis": "monomial",
+      "method": "ridge",
+      "degree": 10,
+      "terms": 285,
+      "alpha": 1.0,
+      "cv_mse": 0.2484161527090162,
+      "cv_se": 0.0204537078646935
+    },
+    "audit_mse": 0.23447143982186777,
+    "audit_r2": 0.9960001384155065,
+    "audit_n": 200,
+    "dev_n": 800,
+    "audit_boundary_n": 123,
+    "audit_boundary_mse": 0.2699753092089996,
+    "train_mse": 0.1564034088343164,
+    "nonzero_coefficients": 285,
+    "final_dual_gap": null,
+    "training_rows": 1000,
+    "test_rows": 1000,
+    "feature_columns": [
+      "x1",
+      "x2",
+      "x3"
+    ],
+    "train_target_std": 6.7141000896719785,
+    "train_target_min": -30.45857418972064,
+    "train_target_max": 39.15326352801837,
+    "prediction_min": -29.64449248161559,
+    "prediction_max": 39.03375899998398,
+    "train_boundary_cell_fraction": 0.24933333333333332,
+    "test_boundary_cell_fraction": 0.25266666666666665,
+    "train_duplicate_features": 4,
+    "test_duplicate_features": 6,
+    "sample_format_verified": true,
+    "train_sha256": "bb254fe9257cfaad4c31a925664fb4362b3efeeb59bfe8fbba20e1ae5ee99a3b",
+    "test_sha256": "103d820396c650dae239b17e4999885e40b05ee32023367c773b7aba69a3da30"
+  }
+}

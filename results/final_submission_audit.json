@@ -1,0 +1,48 @@
+{
+  "var1": {
+    "degree": 5,
+    "permitted_maximum": 10,
+    "method": "lasso",
+    "original_input_hashes_match": true,
+    "selected_by_development_cv": true,
+    "fresh_full_training_fit_matches": true,
+    "csv_matches_sample": true,
+    "predictions_match_in_original_row_order": true,
+    "rows": 1000,
+    "columns": [
+      "y"
+    ],
+    "holdout_metrics_reproduced": true,
+    "holdout_mse": 0.3187918139925777,
+    "holdout_r2": 0.9700726832216782,
+    "sha256": "e10d7baeba769f7fb1e9594b7cd618d521ffe8e083b708998ea383025e9874ff"
+  },
+  "var2": {
+    "degree": 10,
+    "permitted_maximum": 20,
+    "method": "ridge",
+    "original_input_hashes_match": true,
+    "selected_by_development_cv": true,
+    "fresh_full_training_fit_matches": true,
+    "csv_matches_sample": true,
+    "predictions_match_in_original_row_order": true,
+    "rows": 1000,
+    "columns": [
+      "y"
+    ],
+    "holdout_metrics_reproduced": true,
+    "holdout_mse": 0.23447143982186777,
+    "holdout_r2": 0.9960001384155065,
+    "sha256": "1cb334eca3cff3abae703ff95d1c346250ace54ec8446fe6976b1bd53077e2bc"
+  },
+  "report": {
+    "pages": 5,
+    "repository_link_verified": true,
+    "reported_models_and_metrics_match": true,
+    "figures": 6,
+    "all_pages_visually_checked": true,
+    "sha256": "0193d1654457bf8de402c6fa72245225dbce3b741a0afe4c4a406f6e08cc0c02",
+    "repository_url": "https://github.com/ParthMalhotra07/ML_Assignment"
+  },
+  "course_portal_submission": "Not performed; final upload and receipt confirmation required."
+}

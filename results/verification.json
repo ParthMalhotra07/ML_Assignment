@@ -1,0 +1,18 @@
+{
+  "var1": {
+    "rows": 1000,
+    "columns": [
+      "y"
+    ],
+    "reload_predictions_match": true,
+    "metrics_recomputed": true
+  },
+  "var2": {
+    "rows": 1000,
+    "columns": [
+      "y"
+    ],
+    "reload_predictions_match": true,
+    "metrics_recomputed": true
+  }
+}
