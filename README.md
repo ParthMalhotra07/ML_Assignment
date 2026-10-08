@@ -128,4 +128,4 @@ submission/BT2024197_pred_var1.csv
 submission/BT2024197_pred_var2.csv
 ```
 
-The report has five pages and includes the GitHub repository link. The datasets, sample CSV, prediction CSVs, saved results, and source code are tracked here. The report PDF is kept locally for the separate course upload. Publishing this repository does not submit the assignment to the course portal.
+The report has five pages and includes the GitHub repository link. The datasets, sample CSV, prediction CSVs, report PDF, saved results, and source code are tracked here. The report and both prediction CSVs must also be uploaded to the course portal. Publishing this repository does not submit the assignment to the course portal.
